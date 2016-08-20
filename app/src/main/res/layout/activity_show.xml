@@ -7,11 +7,10 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="com.gowhich.androidintentapplication.MainActivity">
+    tools:context="com.gowhich.androidintentapplication.ShowActivity">
 
-    <Button
-        android:id="@+id/button"
-        android:text="Application传递数据"
+    <TextView
+        android:id="@+id/msg"
         android:layout_width="match_parent"
-        android:layout_height="40dp" />
+        android:layout_height="100dp" />
 </RelativeLayout>
